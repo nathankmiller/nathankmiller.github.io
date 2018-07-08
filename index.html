@@ -4,6 +4,20 @@
         <title>Nate's Junk</title>
 
         <style>
+            body {
+                width: 100%;
+
+                display: flex;
+                flex-direction: column;
+                
+                justify-content: center;
+                align-items: center;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
             #mainContainer {
                 display: flex;
                 flex-direction: column;
@@ -29,18 +43,20 @@
             }
 
             #bbt-title {
-                font-size: large;
-                margin: 2px;
+                font-size: x-large;
+                margin: 8px;
             }
 
             #bbt-description {
-                margin: 2px;
+                margin: 8px;
             }
 
             #bbt-image-container {
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
+
+                margin: 8px;
             }
 
             #bbt-image {
@@ -55,6 +71,7 @@
             <div id="bbt-container">
                 <div id="bbt-title"><a href="http://baseballtoy.azurewebsites.net/">Baseball Toy</a></div>
                 <div id="bbt-description">Major League Baseball (MLB) real time game tracker.</div>
+                <div id="bbt-description">React, TypeScript, .NET Core, SignalR, Redis</div>
             </div>
             
             <div id="bbt-image-container">
