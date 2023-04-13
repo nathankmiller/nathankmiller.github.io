@@ -17,7 +17,7 @@ export function BaseballBucket(): React.ReactElement {
 
             <Section>Example</Section>
             <BodyText>
-                Here is a <NewWindowLink href="https://www.baseball-bucket.com/#/08312021/632657">link to a game</NewWindowLink> that shows what the page looks like on a game day.
+                Here is a <NewWindowLink href="https://www.baseball-bucket.com/08312021/632657">link to a game</NewWindowLink> that shows what the page looks like on a game day.
             </BodyText>
 
             <Section>Technology</Section>
