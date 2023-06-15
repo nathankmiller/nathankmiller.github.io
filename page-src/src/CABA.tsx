@@ -19,7 +19,7 @@ export function CABA(): React.ReactElement {
 
             <Section>Example</Section>
             <BodyText>
-                Past <NewWindowLink href="https://www.caba.app/#/make/porsche/911">Porsche 911</NewWindowLink> auctions.
+                Past <NewWindowLink href="https://www.caba.app/#/make/porsche/porsche_911">Porsche 911</NewWindowLink> auctions.
             </BodyText>
             <BodyText>
                 <NewWindowLink href="https://www.caba.app/#/stats/expensive">Most expensive</NewWindowLink> auctions.
